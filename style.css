@@ -1,0 +1,203 @@
+.part2 a {
+  font-size: "Montserrat", sans-serif;
+  padding: 14px 20px;
+  font-size: 14px;
+  border: 2px solid #444;
+  text-decoration: none;
+  color: #444;
+  transition: background-color .4s ease; }
+
+html {
+  scroll-behavior: smooth; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.part1 {
+  background-image: url(img/cover.jpg);
+  background-size: cover;
+  background-position: center bottom;
+  width: auto;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  text-align: center; }
+.part1 h1 {
+  margin: 0;
+  padding: 0;
+  padding-left: 140px;
+  font-size: 54px;
+  font-weight: 800;
+  color: #333;
+  padding-top: 200px; }
+.part1 p {
+  font-size: 18px;
+  color: #444;
+  font-size: "Roboto", sans-serif;
+  font-weight: 40;
+  padding-right: 240px; }
+.part1 ul {
+  margin-right: 100px; }
+.part1 ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 30px 0 0; }
+.part1 a {
+  font-size: "Montserrat", sans-serif;
+  padding: 14px 20px;
+  font-size: 14px;
+  border: 2px solid #444;
+  text-decoration: none;
+  color: #444;
+  transition: background-color .4s ease; }
+.part1 a:hover {
+  color: white;
+  background-color: #444; }
+
+.part2 ul li {
+  list-style: none;
+  display: inline-block; }
+.part2 a {
+  margin-right: 30px; }
+.part2 a:hover {
+  color: white;
+  background-color: #444; }
+.part2 h1 {
+  padding: 0;
+  font-size: 42px;
+  font-weight: 700;
+  color: #333;
+  margin: 100px 0 30px 40px; }
+
+.part3 img {
+  margin: 20px; }
+
+.part3a {
+  display: flex;
+  height: 600px;
+  width: 560px; }
+
+.part3b {
+  display: flex; }
+.part3b img {
+  height: 600px;
+  width: 370px;
+  box-sizing: border-box; }
+
+.part3 img {
+  border: 7px solid #FFFFFF;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: filter 0.3s linear, transform 0.3s linear;
+  -webkit-transition: filter 0.3s linear, transform 0.3s linear; }
+
+.part3:hover img {
+  filter: blur(5px);
+  transform: scale(0.9); }
+
+.part3 img:hover {
+  filter: blur(0);
+  transform: scale(1.1); }
+
+.part3c {
+  display: flex; }
+.part3c img {
+  flex: 2;
+  width: 580px;
+  box-sizing: border-box; }
+
+.part3d {
+  display: flex; }
+.part3d img {
+  flex: 1;
+  box-sizing: border-box; }
+
+.part4 {
+  background: #262626;
+  color: #666;
+  margin-top: 100px;
+  padding-bottom: 150px; }
+.part4 h1 {
+  font-weight: 400;
+  color: #777;
+  padding: 80px 0 0 30px; }
+
+.part4a {
+  display: flex; }
+
+.part4b img {
+  float: left;
+  margin: 30px; }
+.part4b p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-right: 50px;
+  margin-top: 50px; }
+.part4b ul li {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+  font-size: 20px; }
+.part4b ul li a {
+  color: #777;
+  transition: color 0.3s ease; }
+.part4b ul li a:hover {
+  color: white; }
+
+.part4c p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-right: 50px; }
+.part4c input {
+  height: 30px;
+  width: 183px;
+  background-color: #444;
+  display: inline-block;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  margin: 10px 30px 0 0;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 5px;
+  color: white;
+  font-weight: 400;
+  line-height: 1.42857143; }
+.part4c textarea {
+  margin-top: 20px;
+  background-color: #444;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-weight: 400;
+  line-height: 1.42857143;
+  padding: 5px 5px 0 5px;
+  outline: none;
+  border: none;
+  margin-bottom: 30px; }
+.part4c button {
+  font-weight: 400;
+  color: #666;
+  background-color: transparent;
+  border: 2px solid #666;
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 0;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  text-decoration: none;
+  cursor: pointer; }
+.part4c button:hover {
+  background-color: #666;
+  color: #999; }
+.part4c a {
+  text-decoration: none; }
+
+@media only screen and (max-width: 400px) {
+  .part3 {
+    display: flex;
+    flex-wrap: wrap; } }
+
+/*# sourceMappingURL=style.css.map */
